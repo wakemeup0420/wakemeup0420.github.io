@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'Filxgirl';
+  src: url("Filxgirl.TTF");
+}
+
+@font-face {
+  font-family: 'FONTL___';
+  src: url("FONTL___.TTF");
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.l-constrained {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  background-position: center;
+  background: linear-gradient(-45deg, rgba(229,221,255, .8), rgba(255, 204, 248, .8)),
+  url("header.JPG");
+  padding: 100px 0 100px 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.container h1 {
+  color: white;
+  font-size: 120px;
+  max-height: 100%;
+  font-family: 'Filxgirl',sans-serif;
+}
+
+.container li {
+  list-style: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container a {
+  font-family: "FONTL___",sans-serif;
+  margin: 0 30px;
+  font-size: 35px;
+  color: white;
+}
+
+.section {
+  margin-top: 70px;
+}
+
+.section-title {
+  font-family: "FONTL___",sans-serif;
+  text-align: center;
+  font-size: 55px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  color: #f39ac7;
+}
+
+.profile-content {
+  width: 72%;
+  padding:0px 8px;
+  line-height: 180%;
+  font-family: 'Varela Round','M PLUS Rounded 1c', sans-serif;
+}
+
+.subsection{
+  margin-bottom: 32px;
+}
+
+img.icon-large {
+  width: 230px;
+  border-radius: 50%;
+}
+
+.profile-icon {
+  width: 28%;
+}
+
+.profile-content {
+  width: 72%;
+  padding: 0px 10px;
+  line-height: 180%;
+}
+
+.section-contact {
+  padding: 34px 0px 80px 0px;
+  background-color: #e5ddff;
+  text-align: center;
+}
+
+.contact-title {
+  color: white;
+}
+
+.section-contact .section-content{
+  text-align: center;
+}
+
+input.text-email {
+  background-color: #fff;
+  border:solid #fff 1px;
+  border-radius: 3px;
+  width: 550px;
+  color: #f39ac7;
+  font-size: 40px;
+  text-align: center;
+  padding: 16px 0px;
+  outline: none;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.or-text {
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.social {
+  margin: 0 auto;
+  padding: 0px 16px;
+}
+
+.social > a{
+  color: #999;
+  text-decoration: none;
+  font-size: 40px;
+  transition: color 0.3s;
+}
+
+.social > a:hover{
+  color: #fff;
+}
+
+ul.horizontal-list {
+  list-style: none;
+}
+
+ul.products > li{
+  width: 33%;
+  padding: 8px;
+}
+
+ul.products > li > img {
+  width: 230px;
+  text-align: center;
+}
+
+ul.products > li > h1 {
+  width: 230px;
+  color: #ff8fc9;
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+ul.products > li > p {
+  width: 230px;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Varela Round','M PLUS Rounded 1c', sans-serif;
+}
+
+.link > a {
+  color: #999;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.link > a:hover{
+  color: #ffa1fd;
+}
+
+.link {
+  width: 230px;
+  text-align: center;
+}
+
+.about-profile {
+  padding-bottom: 50px;
+}
+
+.github-link {
+  color: #ffacf3;
+}
